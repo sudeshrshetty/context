@@ -20,6 +20,8 @@
         "type": "@type",
         "xsd": "http://www.w3.org/2001/XMLSchema#",
         "ex": "https://example.org/examples#",
+        "name": "http://schema.org/name",
+        "description": "http://schema.org/description",
         "name": {
           "@id": "ex:name",
           "@type": "xsd:string"
@@ -114,10 +116,7 @@
           "@id": "ex:issuedate",
           "@type": "xsd:string"
         },
-        "name": {
-          "@id": "ex:name",
-          "@type": "xsd:string"
-        },
+        "name": "http://schema.org/name",
         "sex": {
           "@id": "ex:sex",
           "@type": "xsd:string"
